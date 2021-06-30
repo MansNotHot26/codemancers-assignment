@@ -1,0 +1,46 @@
+.gif-modal-container {
+    width: 480px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid grey */
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.gif-modal-header {
+    display: flex;
+    width:100%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.gif-modal-search {
+   margin: 10px;
+   
+    
+}
+
+.gif-modal-search input {
+    outline: none;
+    /* border: none; */
+    width: 90%;
+    text-align: center ;
+}
+
+.gif {
+    cursor: pointer;
+}
+
+.gif-modal-spinner {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+}

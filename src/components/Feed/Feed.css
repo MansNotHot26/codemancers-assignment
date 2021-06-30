@@ -1,0 +1,13 @@
+.feed-container {
+}
+
+.feed-post {
+    margin: 10px;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    display:flex;
+    flex-direction:column;
+    max-width: 450px;
+    word-break: break-all;
+}
